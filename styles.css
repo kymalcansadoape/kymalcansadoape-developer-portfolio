@@ -51,7 +51,9 @@ body{
     top: 50%;
     font-size: 18px;
     transform: translateY(-50%);
-    color: #C8C8C8 !important;
+}
+#icons a{
+    color: var(--accent-c) !important;
 }
 #main{
     margin: 170px 0 0 0;
