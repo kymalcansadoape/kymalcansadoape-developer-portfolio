@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-fam);
+    box-sizing: border-box;
+    
+}
+:root{
+    --font-fam: 'Roboto', sans-serif;
+    --main-color:  #121212;
+    --test-c: red;
+    --accent-c: rgb(209, 209, 209);
+    overflow-x: hidden ;
+
+}
+body{
+    background-color: var(--main-color);
+
+}
+.navbar{
+    background-color: var(--main-color);
+}
+.nav-link{
+    font-weight: 300;
+    color: var(--accent-c) !important ;
+}
+@media (min-width: 1000px){
+    .nav-link{
+        margin: 0 40px;
+    }
+}
+.navbar-light .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28209, 209, 209, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-light .navbar-toggler{
+    border: 1px var(--accent-c) solid;
+}
+.nav-link:hover{
+    color: #747474 !important;
+}
+#navbar-kym{
+    font-size: 36px;
+    font-weight: 900;
+    letter-spacing: -4px;
+}
+#icons{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 50%;
+    font-size: 18px;
+    transform: translateY(-50%);
+    color: #C8C8C8 !important;
+}
+#main{
+    margin: 170px 0 0 0;
+}
+#landing-content{
+    margin-top: 90px;
+}
+#greet, #kym, #info-kym{
+    color: var(--accent-c);
+}
+#greet{
+font-size: 60px;
+line-height: 1px;
+}
+#kym{
+    font-size: 87px;
+    font-weight: 900;
+    letter-spacing: -4px;
+    line-height: 120px;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid var(--accent-c); /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 3px; /* Adjust as needed */
+    animation: 
+    typing 2.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: var(--accent-c) }
+  }
+@media (max-width: 375px){
+    #greet{
+        font-size: 30px;
+    }
+    #kym{
+        font-size: 57px;
+    }
+    #info-kym{
+        font-size: 15px;
+    }
+}
+#info-kym{
+    font-size: 25px;
+}
+footer{
+    margin:165px 0 0 0;
+    padding: 5px 0 20px 0;
+    font-weight: 100;
+    color: var(--accent-c);
+    border-top: 1px var(--accent-c) solid;
+    text-align: end;
+}
+/* ! about */
+#about {
+    margin-top: 145px;
+    color: var(--accent-c);
+    padding: 0 30px;
+}
+#about-h1{
+    font-size: 80px;
+    font-weight: 700;
+    letter-spacing: -5px;
+    margin: 0;
+}
+#about p{
+    font-size: 25px;
+    font-weight: 400;
+}
+@media (max-width: 375px ){
+    #about p{
+        font-size: 18px;
+    }
+
+}
+#skill{
+    margin: 120px 0 0 0;
+}
+
+.skill-icons{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 15px;
+    transition: 0.4s;
+}
+.skill-icons:hover{
+    width: 90px;
+    height: 90px;
+    transform: rotate(360deg) translateY(-20px);
+}
+#skill h3 , #recommendation h3{
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: -5px;
+}
+
+#skill div[class=row]{
+    margin: 0 auto;
+}
+/* ! recom */
+#recommendation {
+    color: var(--accent-c);
+    font-weight: 700;
+    font-stretch: condensed;
+    transition: 0.4ms;
+}
+
+@media (max-width: 375px){
+    #recommendation h3{
+        font-size: 40px;
+
+    }
+}
+.recom-card{
+    border: 1px var(--accent-c) solid;
+    border-radius: 5px;
+    transition: 0.5s;
+    box-shadow: 0px 5px 36px -166px rgba(204, 203, 203, 0.15);
+    -webkit-box-shadow: 0px 5px 36px -166px rgba(227,227,227,0.15);
+    -moz-box-shadow: 0px 5px 36px -166px rgba(227,227,227,0.15);
+}
+.recom-card:hover{
+    background-color: var(--accent-c);
+    color: var(--main-color);
+}
+/* !projects */
+#project{
+    color: var(--accent-c);
+    margin-top: 150px ;
+}
+#project h1{
+    font-size: 80px ;
+    font-weight: 700;
+    font-stretch: condensed;
+    letter-spacing: -5px;
+}
+.project-img{
+    border-radius: 20px;
+}
+#project-row{
+    margin: 0;
+}
+/* ! experience */
+#experience{
+    margin-top: 135px;
+}
+#experience h1{
+    color: var(--accent-c);
+    font-size: 80px ;
+    font-weight: 700;
+    font-stretch: condensed;
+    letter-spacing: -5px;
+}
+@media (max-width: 375px){
+    #experience h1{
+        font-size: 50px;
+    }
+}
+#experience-kym{
+    font-weight: 700;
+}
+.experience-row{
+    color: var(--accent-c);
+    border: 1px var(--accent-c) solid;
+    transition: 0.5s;
+
+}
+.experience-row:hover{
+    background-color: var(--accent-c);
+    color: black;
+}
+/* !contact */
+#contact{
+    margin-top: 135px;
+}
+#contact h1{
+    color: var(--accent-c);
+    font-size: 80px ;
+    font-weight: 700;
+    font-stretch: condensed;
+    letter-spacing: -5px;
+}
+#contact p{
+color: var(--accent-c);
+font-size: 25px;
+font-weight:200;
+}
+#contact input[type=submit]{
+    margin: 0 auto;
+}#form{
+    border: 1px var(--accent-c) solid;
+}
+#form label{
+    font-weight: 700;
+}
