@@ -151,7 +151,7 @@ footer{
 .skill-icons:hover{
     width: 90px;
     height: 90px;
-    transform: rotate(360deg) translateY(-20px);
+    transform: rotate(360deg);
 }
 #skill h3 , #recommendation h3{
     font-size: 50px;
