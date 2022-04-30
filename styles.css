@@ -28,7 +28,7 @@
     --font-fam: 'Roboto', sans-serif;
     --main-color:  #121212;
     --test-c: red;
-    --accent-c: rgb(209, 209, 209);
+    --accent-c: #d1d1d1;
     overflow-x: hidden ;
 
 }
@@ -38,7 +38,7 @@ body{
 }
 .navbar{
     background-color: var(--main-color);
-}
+} 
 .nav-link{
     font-weight: 300;
     color: var(--accent-c) !important ;
@@ -75,7 +75,7 @@ body{
     color: var(--accent-c) !important;
 }
 #main{
-    margin: 140px 0 0 0;
+    margin: 150px 0 0 0;
 }
 #landing-content{
     margin-top: 90px;
@@ -209,7 +209,8 @@ footer{
 .recom-card{
     border: 1px var(--accent-c) solid;
     border-radius: 5px;
-    transition: 0.5s; 
+    transition: 0.5s;
+    
 }
 .recom-card:hover{
     background-color: var(--accent-c);
@@ -228,9 +229,11 @@ footer{
     font-stretch: condensed;
     letter-spacing: -5px;
 }
-.project-img{
-    border-radius: 20px;
+.project-img img{
+    border-radius: 15px;
+    transition: 0.9s;
 }
+
 #project-row{
     margin: 0;
 }
