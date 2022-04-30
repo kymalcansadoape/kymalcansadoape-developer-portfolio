@@ -5,6 +5,25 @@
     box-sizing: border-box;
     
 }
+::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #222222; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #4d4d4d; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
 :root{
     --font-fam: 'Roboto', sans-serif;
     --main-color:  #121212;
