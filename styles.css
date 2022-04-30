@@ -179,13 +179,13 @@ footer{
 .recom-card{
     border: 1px var(--accent-c) solid;
     border-radius: 5px;
-    transition: 0.5s;
-    -webkit-box-shadow: 0px 9px 15px -4px rgba(204,204,204,0.42); 
-    box-shadow: 0px 9px 15px -4px rgba(204,204,204,0.42);  
+    transition: 0.5s; 
 }
 .recom-card:hover{
     background-color: var(--accent-c);
     color: var(--main-color);
+    -webkit-box-shadow: 0px -1px 16px 0px rgba(209,209,209,0.79); 
+    box-shadow: 0px -1px 16px 0px rgba(209,209,209,0.79);
 }
 /* !projects */
 #project{
