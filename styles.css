@@ -180,9 +180,8 @@ footer{
     border: 1px var(--accent-c) solid;
     border-radius: 5px;
     transition: 0.5s;
-    box-shadow: 0px 5px 36px -166px rgba(204, 203, 203, 0.15);
-    -webkit-box-shadow: 0px 5px 36px -166px rgba(227,227,227,0.15);
-    -moz-box-shadow: 0px 5px 36px -166px rgba(227,227,227,0.15);
+    -webkit-box-shadow: 0px 9px 15px -4px rgba(204,204,204,0.42); 
+    box-shadow: 0px 9px 15px -4px rgba(204,204,204,0.42);  
 }
 .recom-card:hover{
     background-color: var(--accent-c);
