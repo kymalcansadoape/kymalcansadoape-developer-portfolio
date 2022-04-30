@@ -232,6 +232,8 @@ footer{
 .experience-row:hover{
     background-color: var(--accent-c);
     color: black;
+    -webkit-box-shadow: 0px -1px 16px 0px rgba(209,209,209,0.79); 
+    box-shadow: 0px -1px 16px 0px rgba(209,209,209,0.79);
 }
 /* !contact */
 #contact{
