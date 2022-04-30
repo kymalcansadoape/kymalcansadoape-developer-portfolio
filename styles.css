@@ -122,6 +122,17 @@ line-height: 1px;
         font-size: 15px;
     }
 }
+@media (max-width: 450px){
+    #greet{
+        font-size: 35px;
+    }
+    #kym{
+        font-size: 70px;
+    }
+    #info-kym{
+        font-size: 15px;
+    }
+}
 #info-kym{
     font-size: 25px;
 }
