@@ -231,7 +231,7 @@ footer{
 }
 @media (max-width: 375px){
     #project h1{
-        font-size: 50px;
+        font-size: 64px;
     }
 }
 .project-img img{
@@ -255,7 +255,7 @@ footer{
 }
 @media (max-width: 375px){
     #experience h1{
-        font-size: 50px;
+        font-size: 64px;
     }
 }
 #experience-kym{
@@ -286,7 +286,7 @@ footer{
 }
 @media (max-width: 375px){
     #contact h1{
-        font-size: 50px;
+        font-size: 64px;
     }
     #contact p{
     font-size: 20px;
