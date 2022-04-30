@@ -296,7 +296,7 @@ footer{
 text-align: center;
 color: var(--accent-c);
 font-size: 25px;
-font-weight:200;
+font-weight:100;
 }
 #contact input[type=submit]{
     margin: 0 auto;
