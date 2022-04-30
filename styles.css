@@ -284,7 +284,16 @@ footer{
     font-stretch: condensed;
     letter-spacing: -5px;
 }
+@media (max-width: 375px){
+    #contact h1{
+        font-size: 50px;
+    }
+    #contact p{
+    font-size: 20px;
+    }
+}
 #contact p{
+text-align: center;
 color: var(--accent-c);
 font-size: 25px;
 font-weight:200;
