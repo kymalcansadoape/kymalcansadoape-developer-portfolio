@@ -111,28 +111,28 @@ line-height: 1px;
     from, to { border-color: transparent }
     50% { border-color: var(--accent-c) }
   }
-@media (max-width: 375px){
-    #greet{
-        font-size: 30px;
+  @media (max-width: 450px){
+      #greet{
+          font-size: 35px;
+        }
+        #kym{
+            font-size: 70px;
+        }
+        #info-kym{
+            font-size: 15px;
+        }
     }
-    #kym{
-        font-size: 57px;
+    @media (max-width: 375px){
+        #greet{
+            font-size: 30px;
+        }
+        #kym{
+            font-size: 57px;
+        }
+        #info-kym{
+            font-size: 15px;
+        }
     }
-    #info-kym{
-        font-size: 15px;
-    }
-}
-@media (max-width: 450px){
-    #greet{
-        font-size: 35px;
-    }
-    #kym{
-        font-size: 70px;
-    }
-    #info-kym{
-        font-size: 15px;
-    }
-}
 #info-kym{
     font-size: 25px;
 }
