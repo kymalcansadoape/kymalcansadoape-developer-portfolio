@@ -304,6 +304,10 @@ font-weight:100;
 }#form{
     border: 1px var(--accent-c) solid;
 }
+#form input[type=email] , #form input[type=text], #form textarea{
+    background-color: var(--main-color);
+    color: var(--accent-c);
+}
 #form label{
     font-weight: 700;
 }
