@@ -159,6 +159,7 @@ footer{
 #about p{
     font-size: 25px;
     font-weight: 400;
+    line-height: 34px;
 }
 @media (max-width: 375px ){
     #about p{
