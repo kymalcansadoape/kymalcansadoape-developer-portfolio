@@ -44,7 +44,9 @@ body {
 .navbar {
     background-color: var(--main-color);
 }
-
+.navbar p{
+    transform: translateY(-9px);
+}
 .nav-link {
     font-weight: 300;
     color: var(--accent-c) !important;
