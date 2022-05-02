@@ -47,6 +47,7 @@ body {
 .navbar p{
     transform: translateY(-9px);
 }
+
 .nav-link {
     font-weight: 300;
     color: var(--accent-c) !important;
@@ -285,7 +286,11 @@ footer {
     font-stretch: condensed;
     letter-spacing: -5px;
 }
-
+@media (max-width: 500px) {
+    #projects h1 {
+        font-size: 50px;
+    }
+}
 .project-img img {
     border-radius: 15px;
     transition: 0.9s;
@@ -304,7 +309,7 @@ footer {
     font-stretch: condensed;
     letter-spacing: -5px;
 }
-@media (max-width: 375px) {
+@media (max-width: 500px) {
     #experience h1 , #certs h1  {
         font-size: 50px;
     }
@@ -349,6 +354,15 @@ footer {
     color: var(--accent-c);
     font-size: 25px;
     font-weight: 200;
+}
+@media (max-width: 500px) {
+    #contact h1{
+        font-size: 60px;
+    }
+    #contact p{
+        font-size: 20px ;
+    }
+    
 }
 
 #contact input[type=submit] {
