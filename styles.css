@@ -287,7 +287,7 @@ footer {
     letter-spacing: -5px;
 }
 @media (max-width: 500px) {
-    #projects h1 {
+    #project h1 {
         font-size: 50px;
     }
 }
