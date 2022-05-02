@@ -204,6 +204,11 @@ footer {
     letter-spacing: -5px;
     margin: 0;
 }
+@media (max-width: 500px) {
+    #about-h1 {
+        font-size: 50px;
+    }
+}
 
 #about p {
     font-size: 25px;
