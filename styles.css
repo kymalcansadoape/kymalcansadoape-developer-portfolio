@@ -113,7 +113,7 @@ body {
     font-size: 100px;
     font-weight: 900;
     letter-spacing: -5px;
-    line-height: 120px;
+/*     line-height: 120px; */
     overflow: hidden;
     /* Ensures the content is not revealed until the animation */
     border-right: .15em solid var(--accent-c);
