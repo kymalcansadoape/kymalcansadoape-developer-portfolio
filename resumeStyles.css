@@ -1,0 +1,109 @@
+html{
+    font-size: 62.5%
+}
+:root{
+    --head-color:#dadada; /* ! CSS variable */
+}
+::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #dbdbdb;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background:  #a1a1a1;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #535353;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px red solid; */
+    overflow-x: hidden;
+}
+header h2{
+    font-size: 5rem;
+    font-weight: 700;
+}
+header i{
+    font-size: 2.3rem;
+    font-style: none !important;
+}
+@media (max-width: 500px){
+    header h2{
+        font-size: 3rem;
+    }
+    header i{
+        font-size: 1.8rem;
+    }
+}
+.grey-bg{
+    background-color: var(--head-color);
+}
+#objectives h1 ,
+#education h1 , 
+#courses h1,
+#skills h1,
+#experience h1,
+#certificate h1,
+#projects h1,
+#references h1{
+    font-weight: 700;
+}
+#objectives p{
+    font-size: 2rem
+}
+#education p , 
+#courses p, 
+#experience p, 
+#certificate p,
+#projects p,
+#references p{
+    font-size: 1.8rem;
+}
+#projects p{
+    margin: 0 !important;
+}
+#references .message{
+    text-align: justify;
+}
+#skills .items{
+    font-size: 18px;
+    margin: 5px 5px;
+    background-color: #ededed82;
+}
+footer{
+    background: var(--head-color);
+}
+footer h1{
+    font-size: 3rem !important;
+    letter-spacing: -1px;
+    font-weight: 700;
+}
+.links div{
+    margin: 5px 0;
+}
+footer a , footer i{
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: black;
+}
+footer i{
+    display: block;
+    margin: 0;
+}
+.socials i{
+    font-size: 2rem;
+}
+.copyright{
+    font-size: 1.7rem;
+}
