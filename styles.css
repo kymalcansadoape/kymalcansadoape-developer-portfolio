@@ -28,7 +28,7 @@
 
 :root {
     --font-fam: 'Roboto', sans-serif;
-    --main-color: #1c1b1b;  /* #121212 */
+    --main-color: #121212;
     --test-c: red;
     --accent-c: #d1d1d1;
     overflow-x: hidden;
@@ -326,9 +326,6 @@ footer {
     color: var(--accent-c);
     border: 1px var(--accent-c) solid;
     transition: 0.5s;
-    box-shadow: 15px 15px 18px -8px rgba(0,0,0,0.6);
--webkit-box-shadow: 15px 15px 18px -8px rgba(0,0,0,0.6);
--moz-box-shadow: 15px 15px 18px -8px rgba(0,0,0,0.6);
 }
 #cert-box a{
     color: var(--accent-c);
@@ -340,9 +337,7 @@ footer {
     background-color: var(--accent-c);
     color: black;
     -webkit-box-shadow: 0px -1px 16px 0px rgba(209, 209, 209, 0.79);
-    box-shadow: 15px 15px 18px 6px rgba(0,0,0,0.64);
--webkit-box-shadow: 15px 15px 18px 6px rgba(0,0,0,0.64);
--moz-box-shadow: 15px 15px 18px 6px rgba(0,0,0,0.64);
+    box-shadow: 0px -1px 16px 0px rgba(209, 209, 209, 0.79);
 }
 #cert-box a:hover{
     color: var(--main-color)
