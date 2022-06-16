@@ -99,11 +99,11 @@ body {
 .main {
     margin: 150px 0 0 0;
 }
-
-#pic-kym{
-    margin: 2.5rem 0 0 0 ;
+@media(min-width: 700px) {
+    #pic-kym{
+        margin: 2.5rem 0 0 0 ;
+    }   
 }
-
 #landing-content {
     margin-top: 90px;
 }
