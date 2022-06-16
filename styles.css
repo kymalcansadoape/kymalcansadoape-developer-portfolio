@@ -42,7 +42,7 @@ body {
 }
 
 .navbar {
-    /* background-color: var(--main-color); */
+    background-color: var(--main-color);
 }
 .navbar p{
     transform: translateY(-9px);
