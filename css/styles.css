@@ -31,6 +31,8 @@
     --accent-c: #d1d1d1;
     --main-color: #121212;
     --test-c: red;
+    --black: #000;
+    --white: #fff;
     overflow-x: hidden;
     scroll-behavior: smooth;
     
@@ -39,6 +41,8 @@
 .dark-theme{
     --accent-c: #121212;
     --main-color: #d1d1d1; 
+    --black: white;
+    --white: black;
 }
 body {
     background-color: var(--main-color);
@@ -87,7 +91,7 @@ body {
     height: 20px;
 }
 
-#icons {
+/* #icons {
     position: fixed;
     display: flex;
     flex-direction: column;
@@ -95,7 +99,7 @@ body {
     top: 50%;
     font-size: 18px;
     transform: translateY(-50%);
-}
+} */
 
 #icons a {
     color: var(--accent-c);
@@ -198,6 +202,15 @@ body {
         font-size: 15px;
     }
 }
+#resume-btn{
+    border-color: var(--accent-c);
+    color: var(--accent-c);
+    background: transparent;
+}
+#resume-btn:hover{
+    background: var(--accent-c);
+    color: var(--main-color);
+}
 
 #info-kym {
     font-size: 25px;
@@ -244,7 +257,7 @@ footer {
 }
 #skill {
     margin: 120px 0 0 0;
-    background-color: var(--accent-c);
+    background-color: var(--white);
 }
 #skill h3{
     color: var(--main-color);
@@ -404,21 +417,22 @@ footer {
 #form input[type=email],
 #form input[type=text],
 #form textarea {
-    background-color: var(--accent-c);
+    background-color: var(--main-color);
     color: var(--accent-c);
+    border-color: var(--accent-c);
 }
 button[type=submit]{
-    color: var(--main-color);
-    border: 1px var(--main-color) solid;
+    color: var(--accent-c);
+    border: 1px var(--accent-c) solid;
     width: 100%;
     padding: 4.5px 0;
     border-radius: 0.25rem;
-    background-color: var(--accent-c) ;
+    background-color: var(--main-color) ;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 button[type=submit]:hover{
-    background: var(--main-color);
-    color: var(--accent-c);
+    background: var(--accent-c);
+    color: var(--main-color);
     border: 1px var(--accent-c) solid;
 }
 #form label {
