@@ -30,6 +30,7 @@
     --font-fam: 'Roboto', sans-serif;
     --accent-c: #d1d1d1;
     --main-color: #121212;
+    color: grey
     --test-c: red;
     --black: #000;
     --white: #fff;
@@ -39,7 +40,7 @@
 
 }
 .dark-theme{
-    --accent-c: #121212;
+    --accent-c: rgb(18, 18, 18);
     --main-color: #d1d1d1; 
     --black: white;
     --white: black;
@@ -69,7 +70,7 @@ body {
 }
 
 .navbar-light .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28209, 209, 209, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28128, 128, 128, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
 .navbar-light .navbar-toggler {
